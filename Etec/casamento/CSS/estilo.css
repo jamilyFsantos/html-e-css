@@ -1,0 +1,57 @@
+body{
+    background-color:grey;
+}
+
+/* formatação da coluna */
+.principal{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+}
+
+/* colunas: definimos que vai ter o alinhamneto centralizado, margen de 1% e o conteudo vai ficar um embaixo do outro*/
+.coluna1, .coluna2, .coluna3, .coluna4, .coluna5{
+    align-items: center;
+    margin: 1%;
+}
+
+.coluna1{
+    flex-grow: 1;
+}
+
+.coluna2{
+    flex-grow: 1;
+}
+
+.coluna3{
+    flex-grow: 1;
+}
+
+.coluna4{
+    flex-grow: 1;
+}
+
+.coluna5{
+    flex-grow: 1;
+}
+
+/*configurar a tag img*/
+img{
+    width: 100%;
+    margin: 1.5%;
+}
+
+h1{
+    text-align: center;
+    color:azure;
+    font-family: "Sofia", sans-serif;
+    font-size: 50px;
+    text-shadow: 3px 3px 3px #ababab;
+}
+
+h2{
+    text-align: center;
+    color: azure;
+    font-family: "Sofia", sans-serif;
+    font-size: 16px;
+}
